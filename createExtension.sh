@@ -1,5 +1,5 @@
 #!/bin/bash
 
-psql postgres postgres <<- EOSQL
+psql mdk postgres <<- EOSQL
    CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 EOSQL
