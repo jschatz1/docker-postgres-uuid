@@ -1,5 +1,5 @@
 #!/bin/bash
 
-gosu postgres postgres --single <<- EOSQL
+psql postgres postgres --single <<- EOSQL
    CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 EOSQL
