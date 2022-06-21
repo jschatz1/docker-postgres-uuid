@@ -1,6 +1,6 @@
-FROM postgres:10-alpine
+FROM postgres:14.3-alpine
 
-MAINTAINER Nicolas Bös
+MAINTAINER Jacob Schatz
 
 RUN apk update && apk add postgresql-contrib
 
